@@ -12,7 +12,7 @@ import ImgWork6 from '../public/Works_6.png'
 const LatestWork = () => {
     return (
         <div className="rounded-xl bg-primary-100 pb-6">
-            <Carousel transition={{ duration: 2 }} autoPlay={true} className="pb-1">
+            <Carousel transition={{ duration: 2 }} className="pb-1">
                 <div className="container mx-auto px-5 py-12 lg:px-32 lg:pt-12">
                     <h2 className="mb-4 text-center text-3xl font-bold text-white">
                         OUR <span className="text-white">LATEST </span>WORKS
