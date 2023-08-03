@@ -135,7 +135,7 @@ export default function HomePageHeader() {
                 {/* NavBar End */}
 
             </main>
-            <HeroSection />
+
         </div>
     )
 }

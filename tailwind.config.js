@@ -14,7 +14,7 @@ module.exports = withMT({
     extend: {
       colors: {
         primary: {
-          100: '#17a2b8',
+          100: '#07A7E3',
           200: 'rgba(115, 206, 235, 0.21)',
           900: '#22D8F1'
         }
@@ -29,7 +29,7 @@ module.exports = withMT({
     },
   },
   plugins: [
-    require('flowbite/plugin', 'tw-elements/dist/plugin')
+    require('flowbite/plugin', 'tw-elements/dist/plugin', '@tailwindcss/forms')
   ],
 }
 )
