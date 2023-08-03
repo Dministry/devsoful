@@ -140,7 +140,7 @@ const LatestWork = () => {
 
             </Carousel>
             <button className="mx-auto flex items-center rounded-full justify-center bg-transparent hover:bg-white text-white font-semibold hover:text-primary-100 py-2 px-4 border border-white hover:border-transparent rounded">
-                GET TO KNOW OUR WORK
+                SEE ALL PROJECTS
             </button>
         </div>
     );
