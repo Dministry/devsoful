@@ -4,7 +4,7 @@ const ProductLife = () => {
     return (
         <div>
             <h2 className="mt-16 mb-8 text-center text-3xl font-bold">
-                PRODUCT <span className="text-primary-100">LIFE CYCLE </span>
+                FULL PRODUCT <span className="text-primary-100">LIFE CYCLE </span>
             </h2>
             <div className="flex items-center justify-center">
                 <Image
