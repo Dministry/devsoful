@@ -6,7 +6,7 @@ const OurWork = () => {
         <>
             <div className="w-3/4 my-20 mx-auto md:px-6">
                 <section className="lg:mb-8 mb-2 text-center lg:text-left">
-                    <h2 className="mb-0 text-center text-3xl font-bold">
+                    <h2 className="mb-2 text-center text-3xl font-bold">
                         FULL <span className="text-primary-100">CYCLE </span>BRAND AND PRODUCT DEVELOPMENT
                 </h2>
                     <p className="text-neutral-500 mb-8 dark:text-neutral-300 flex items-center justify-center">
@@ -30,7 +30,7 @@ const OurWork = () => {
                             <h5 className="mb-4 text-lg font-bold flex items-center justify-center">DEVELOPMENT</h5>
                             <p className="text-neutral-500 dark:text-neutral-300 flex items-center justify-center text-center">
                                 We make the essence of your brand visible to the world
-                        </p>
+                            </p>
                         </div>
                         <div className="mb-12 lg:mb-0  border border-gray-300 rounded-lg p-8">
                             <div className="mb-4 flex items-center justify-center text-sm font-medium text-danger dark:text-danger-500 lg:justify-center">
@@ -44,7 +44,7 @@ const OurWork = () => {
 
                     </div>
                 </section>
-                <CtaButton />
+                {/* <CtaButton /> */}
             </div>
         </>
 

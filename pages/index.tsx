@@ -26,8 +26,8 @@ export default function Home() {
         <HomePageHeader />
         {/* NavBar End */}
         <OurWork />
-        <LatestWork />
         <ProductLife />
+        <LatestWork />
 
       </main>
 
