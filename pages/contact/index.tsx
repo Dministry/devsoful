@@ -6,6 +6,8 @@ import { FaPhone, FaAddressBook, FaInbox } from "react-icons/fa";
 import { useState } from 'react'
 import { ChevronDownIcon } from '@heroicons/react/20/solid'
 import { Switch } from '@headlessui/react'
+import Recaptcha from '../../components/Recaptcha';
+
 
 function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
@@ -15,7 +17,16 @@ function classNames(...classes) {
 
 const Contact = () => {
 
-    const [agreed, setAgreed] = useState(false)
+    const [agreed, setAgreed] = useState(false);
+    const [isRecaptchaVerified, setRecaptchaVerified] = useState(false);
+    const handleRecaptchaChange = (value) => {
+        setRecaptchaVerified(!!value);
+    }
+    const handleSubmit = (e) => {
+        e.preventDefault();
+
+    };
+
 
     return (
         <>
@@ -124,7 +135,11 @@ const Contact = () => {
                         </div>
 
                         {/* Switch */}
-                        <Switch.Group as="div" className="flex gap-x-4 sm:col-span-2">
+                        <div className="flex items-center justify-center col-span-full">
+                            <Recaptcha onChange={handleRecaptchaChange} />
+                        </div>
+
+                        {/* <Switch.Group as="div" className="flex gap-x-4 sm:col-span-1">
                             <div className="flex h-6 items-center">
                                 <Switch
                                     checked={agreed}
@@ -151,9 +166,9 @@ const Contact = () => {
                         </a>
                                 .
                         </Switch.Label>
-                        </Switch.Group>
+                        </Switch.Group> */}
                     </div>
-                    <div className="mt-10">
+                    <div className="mt-8">
                         <button
                             type="submit"
                             className="block w-full rounded-3xl bg-primary-100 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-primary-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"

@@ -6,7 +6,7 @@ import Image from 'next/image'
 import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon, ShareIcon } from '@heroicons/react/24/outline'
-import ImgContact from '../public/contactHeroSection.png'
+import ImgPricing from '../public/pricingHeroSection.png'
 
 function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
@@ -26,7 +26,7 @@ const stats = [
 ]
 
 
-export default function ContactPageHeader() {
+export default function PricingPageHeader() {
     return (
         <div className="">
             <Head>
@@ -75,7 +75,7 @@ export default function ContactPageHeader() {
                                         </div>
 
                                     </div>
-                                    <div className="flex flex-shrink-0 h-8 w-auto items-center ml-32 justify-center text-white">
+                                    <div className="flex flex-shrink-0 h-8 w-auto items-center justify-center text-white">
                                         <h2 className="mt-16 mb-8 text-center text-xl font-bold">
                                             DEVSOFUL
                                         </h2>
@@ -153,7 +153,7 @@ export default function ContactPageHeader() {
 
                     <div className="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
                         <Image
-                            src={ImgContact}
+                            src={ImgPricing}
                             alt="Contact Image Section"
                             className="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center"
 
@@ -185,7 +185,7 @@ export default function ContactPageHeader() {
                         </div>
                         <div className="mx-auto max-w-7xl px-6 lg:px-8">
                             <div className="mx-auto lg:mx-0">
-                                <h2 className="flex items-center justify-center text-4xl font-bold tracking-tight text-white sm:text-6xl text-center">CONTACT US</h2>
+                                <h2 className="flex items-center justify-center text-4xl font-bold tracking-tight text-white sm:text-6xl text-center">PRICING</h2>
                             </div>
 
                         </div>
