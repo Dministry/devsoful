@@ -29,7 +29,7 @@ module.exports = withMT({
     },
   },
   plugins: [
-    require('flowbite/plugin', 'tw-elements/dist/plugin', '@tailwindcss/forms')
+    require('flowbite/plugin', 'tw-elements/dist/plugin', '@tailwindcss/forms', '@tailwindcss/typography')
   ],
 }
 )
