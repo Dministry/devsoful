@@ -270,7 +270,7 @@ const OurTech = () => {
                             {/* Card 1 */}
                             <div className="mb-12 lg:mb-0  border border-gray-300 rounded-lg p-8">
                                 <div className="mb-4 flex items-center justify-center text-sm font-medium text-danger dark:text-danger-500 lg:justify-center">
-                                    <Image src={WebImg} />
+                                    <Image src={WebImg} alt="web" />
                                 </div>
                                 <h5 className="mb-4 text-lg font-bold flex items-center justify-center text-center text-white">WEB DESIGN AND DEVELOPMENT</h5>
                                 <p className="text-gray-200 dark:text-neutral-300 flex items-center justify-center text-center">
@@ -280,7 +280,7 @@ const OurTech = () => {
                             {/* Card 2 */}
                             <div className="mb-12 lg:mb-0  border border-gray-300 rounded-lg p-8">
                                 <div className="mb-4 flex items-center justify-center text-sm font-medium text-danger dark:text-danger-500 lg:justify-center">
-                                    <Image src={SearchOpt} />
+                                    <Image src={SearchOpt} alt="search optimization" />
                                 </div>
                                 <h5 className="mb-4 text-lg font-bold flex items-center justify-center">SEARCH ENGINE OPTIMIZATION</h5>
                                 <p className="text-gray-500 dark:text-neutral-300 flex items-center justify-center text-center">
@@ -290,7 +290,7 @@ const OurTech = () => {
                             {/* Card 3 */}
                             <div className="mb-12 lg:mb-0 border border-gray-300 rounded-lg p-8">
                                 <div className="mb-4 flex items-center justify-center text-sm font-medium text-danger dark:text-danger-500 lg:justify-center">
-                                    <Image src={Maint} />
+                                    <Image src={Maint} alt="maintenance" />
                                 </div>
                                 <h5 className="mb-4 text-lg font-bold flex items-center justify-center">WEBSITE MAINTENANCE</h5>
                                 <p className="text-gray-500 dark:text-neutral-300 flex items-center justify-center text-center">
@@ -300,7 +300,7 @@ const OurTech = () => {
                             {/* Card 4 */}
                             <div className="mb-12 lg:mb-0 border border-gray-300 rounded-lg p-8">
                                 <div className="mb-4 flex items-center justify-center text-sm font-medium text-danger dark:text-danger-500 lg:justify-center">
-                                    <Image src={StratCons} />
+                                    <Image src={StratCons} alt="Strategic" />
                                 </div>
                                 <h5 className="mb-4 text-lg font-bold flex items-center justify-center">STRATEGIC CONSULTATION</h5>
                                 <p className="text-gray-500 dark:text-neutral-300 flex items-center justify-center text-center">
@@ -310,7 +310,7 @@ const OurTech = () => {
                             {/* Card 5 */}
                             <div className="mb-12 lg:mb-0 border border-gray-300 rounded-lg p-8">
                                 <div className="mb-4 flex items-center justify-center text-sm font-medium text-danger dark:text-danger-500 lg:justify-center">
-                                    <Image src={ConOpt} />
+                                    <Image src={ConOpt} alt="Con" />
                                 </div>
                                 <h5 className="mb-4 text-lg font-bold flex items-center justify-center">CONVERSION OPTIMIZATION</h5>
                                 <p className="text-gray-500 dark:text-neutral-300 flex items-center justify-center text-center">
@@ -320,7 +320,7 @@ const OurTech = () => {
                             {/* Card 6 */}
                             <div className="mb-12 lg:mb-0 border border-gray-300 rounded-lg p-8">
                                 <div className="mb-4 flex items-center justify-center text-sm font-medium text-danger dark:text-danger-500 lg:justify-center">
-                                    <Image src={Shopify} />
+                                    <Image src={Shopify} alt="shopify" />
                                 </div>
                                 <h5 className="mb-4 text-lg font-bold flex items-center justify-center">SHOPIFY PLUS</h5>
                                 <p className="text-gray-500 dark:text-neutral-300 flex items-center justify-center text-center">
