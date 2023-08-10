@@ -47,13 +47,13 @@ const ProductLife = () => {
                 />
             </div>
             {/* Dropdown Section */}
-            <div className="bg-white border border-gray-200 rounded-lg mt-16">
+            <div className="bg-white mt-16">
                 <div className="mx-auto max-w-7xl px-6 py-2 sm:py-32 lg:px-8 lg:py-6">
-                    <div className=" max-w-4xl divide-y divide-gray-900/10">
+                    <div className=" max-w-4xl">
                         {/* Heading Here */}
-                        <dl className="mt-1  space-y-6 divide-y divide-gray-900/10">
+                        <dl className="mt-1 space-y-6">
                             {faqs.map((faq) => (
-                                <Disclosure as="div" key={faq.question} className="pt-6">
+                                <Disclosure as="div" key={faq.question} className="p-6 pb-6 border border-gray-200 rounded-lg divide-y divide-gray-900/10">
                                     {({ open }) => (
                                         <>
                                             <dt>
