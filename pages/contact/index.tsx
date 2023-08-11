@@ -14,7 +14,6 @@ function classNames(...classes) {
 }
 
 
-
 const Contact = () => {
 
     const [agreed, setAgreed] = useState(false);
@@ -35,7 +34,7 @@ const Contact = () => {
             </Head>
             <ContactPageHeader />
 
-            <div className="isolate border bg-white px-6 py-24 sm:py-32 lg:px-8">
+            <div className="isolate border bg-white px-6 py-24 sm:py-24 lg:px-8">
                 <form action="#" method="POST" className="mx-auto mt-16 max-w-3xl sm:mt-2 border border-grey-300 p-16 rounded-xl">
                     <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
                         <div>
