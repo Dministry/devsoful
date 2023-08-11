@@ -1,6 +1,7 @@
 import HomeLayout from "../../layouts/MainLayout";
 import Image from "next/image";
 import Head from "next/head";
+import Footer from '../../components/Footer'
 import PricingPageHeader from '../../components/PricingPageHeader'
 import { FaPhone, FaAddressBook, FaInbox } from "react-icons/fa";
 import { useState } from 'react'
@@ -196,8 +197,9 @@ const Pricing = () => {
 					</div>
 				</div>
 			</div>
-
-
+			<footer className="">
+				<Footer />
+			</footer>
 		</>
 	)
 }

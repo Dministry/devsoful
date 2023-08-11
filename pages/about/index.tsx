@@ -1,5 +1,6 @@
-import AboutPageHeader from '../../components/AboutPageHeader';
 import Head from 'next/head';
+import AboutPageHeader from '../../components/AboutPageHeader';
+import Footer from '../../components/Footer'
 import { Disclosure } from '@headlessui/react'
 import { MinusSmallIcon, PlusSmallIcon, ArrowLeftIcon, ArrowDownOnSquareStackIcon, ChevronDownIcon } from '@heroicons/react/24/outline'
 
@@ -87,6 +88,9 @@ const About = () => {
                     </div>
                 </div>
             </div>
+            <footer className="">
+                <Footer />
+            </footer>
         </>
 
     )

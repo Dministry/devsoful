@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Footer from '../../../components/Footer'
 import MobileAppPageHeader from '../../../components/headers/MobileAppPageHeader'
 import ProjectsCards20 from '../../../public/ProjectsCards20.png'
 import ProjectsCards21 from '../../../public/ProjectsCards21.png'
@@ -22,8 +23,10 @@ const MobileApp = () => {
                 <div>
                     <Image className="h-auto max-w-full rounded-lg" src={ProjectsCards25} alt="" />
                 </div>
-
             </div>
+            <footer className="">
+                <Footer />
+            </footer>
         </>
     )
 }

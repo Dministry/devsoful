@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Footer from '../../../components/Footer'
 import WordPressPageHeader from '../../../components/headers/WordPressPageHeader'
 import ProjectsCards8 from '../../../public/ProjectsCards8.png'
 import ProjectsCards4 from '../../../public/ProjectsCards4.png'
@@ -28,6 +29,9 @@ const WordPress = () => {
                     <Image className="h-auto max-w-full rounded-lg" src={ProjectsCards12} alt="" />
                 </div>
             </div>
+            <footer className="">
+                <Footer />
+            </footer>
         </>
     )
 }

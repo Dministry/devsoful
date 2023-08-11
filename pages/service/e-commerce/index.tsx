@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Footer from '../../../components/Footer'
 import EcomPageHeader from '../../../components/headers/EcomPageHeader'
 import ProjectsCards1 from '../../../public/ProjectsCards1.png'
 import ProjectsCards26 from '../../../public/ProjectsCards26.png'
@@ -19,6 +20,9 @@ const ECommerce = () => {
                     <Image className="h-auto max-w-full rounded-lg" src={ProjectsCards1} alt="" />
                 </div>
             </div>
+            <footer className="">
+                <Footer />
+            </footer>
         </>
     )
 }

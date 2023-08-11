@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Footer from '../../../components/Footer'
 import WebDesignPageHeader from '../../../components/headers/WebDesignPageHeader'
 import ProjectsCards8 from '../../../public/ProjectsCards8.png'
 import ProjectsCards9 from '../../../public/ProjectsCards9.png'
@@ -54,6 +55,9 @@ const WebDesign = () => {
                     <Image className="h-auto max-w-full rounded-lg" src={ProjectsCards14} alt="" />
                 </div>
             </div>
+            <footer className="">
+                <Footer />
+            </footer>
         </>
     )
 }

@@ -1,6 +1,7 @@
 import HomeLayout from "../../layouts/MainLayout";
 import Image from "next/image";
 import Head from "next/head";
+import Footer from '../../components/Footer'
 import ContactPageHeader from '../../components/ContactPageHeader'
 import { FaPhone, FaAddressBook, FaInbox } from "react-icons/fa";
 import { useState } from 'react'
@@ -173,12 +174,13 @@ const Contact = () => {
                             className="block w-full rounded-3xl bg-primary-100 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-primary-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                         >
                             SEND
-          </button>
+                        </button>
                     </div>
                 </form>
             </div>
-
-
+            <footer className="">
+                <Footer />
+            </footer>
         </>
     )
 }

@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Footer from '../../../components/Footer'
 import UiPageHeader from '../../../components/headers/UiPageHeader'
 import ProjectsCards1 from '../../../public/ProjectsCards1.png'
 import ProjectsCards2 from '../../../public/ProjectsCards2.png'
@@ -34,6 +35,9 @@ const UiDesign = () => {
                     <Image className="h-auto max-w-full rounded-lg" src={ProjectsCards7} alt="" />
                 </div>
             </div>
+            <footer className="">
+                <Footer />
+            </footer>
         </>
     )
 }

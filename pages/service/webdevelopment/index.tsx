@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Footer from '../../../components/Footer'
 import WebDevPageHeader from '../../../components/headers/WebDevPageHeader'
 import ProjectsCards8 from '../../../public/ProjectsCards8.png'
 import ProjectsCards9 from '../../../public/ProjectsCards9.png'
@@ -32,6 +33,9 @@ const WebDevelopment = () => {
                     <Image className="h-auto max-w-full rounded-lg" src={ProjectsCards13} alt="" />
                 </div>
             </div>
+            <footer className="">
+                <Footer />
+            </footer>
         </>
     )
 }

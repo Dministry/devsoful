@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Footer from '../../../components/Footer'
 import BrandPageHeader from '../../../components/headers/BrandingPageHeader'
 import ProjectsCards20 from '../../../public/ProjectsCards20.png'
 import ProjectsCards21 from '../../../public/ProjectsCards21.png'
@@ -20,6 +21,9 @@ const Branding = () => {
                     <Image className="h-auto max-w-full rounded-lg" src={ProjectsCards24} alt="" />
                 </div>
             </div>
+            <footer className="">
+                <Footer />
+            </footer>
         </>
     )
 }

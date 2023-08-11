@@ -513,7 +513,7 @@ const OurTech = () => {
                                 <Image
                                     className="mx-auto h-20 w-20 rounded-full"
                                     src={Lotfi}
-                                    alt=""
+                                    alt="Lotfi"
                                 />
                                 <div className="mt-2 flex items-center justify-center space-x-3 text-base">
                                     <div className="font-semibold text-gray-900 text-xl">Behrouz Lotfi</div>
@@ -577,7 +577,7 @@ const OurTech = () => {
                                 <Image
                                     className="mx-auto h-20 w-20 rounded-full"
                                     src={Lotfi}
-                                    alt=""
+                                    alt="Lotfi"
                                 />
                                 <div className="mt-2 flex items-center justify-center space-x-3 text-base">
                                     <div className="font-semibold text-gray-900 text-xl">Behrouz Lotfi</div>
