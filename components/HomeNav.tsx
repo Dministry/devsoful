@@ -80,7 +80,7 @@ export default function HomeNav() {
                             <a
                                 key={item.name}
                                 href={item.href}
-                                className="mx-auto text-center block rounded-full px-3 py-2 text-gray-100 font-semibold leading-7 text-gray-900 hover:text-primary-100 hover:bg-gray-50"
+                                className="mx-auto text-center block rounded-full px-3 py-2 text-white font-semibold leading-7 text-gray-900 hover:text-primary-100 hover:bg-gray-50"
                             >
                                 {item.name}
                             </a>
