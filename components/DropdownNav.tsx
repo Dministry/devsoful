@@ -43,6 +43,26 @@ const navListMenuItems = [
         href:
             "/service/mobile-app",
     },
+    {
+        title: "UI/UX Design",
+        href:
+            "/service/ui-design",
+    },
+    {
+        title: "Web Design",
+        href:
+            "/service/webdesign",
+    },
+    {
+        title: "Web Devlopment",
+        href:
+            "/service/webdevelopment",
+    },
+    {
+        title: "WordPress",
+        href:
+            "/service/wordpress",
+    },
 ];
 
 function DropdownNav() {
