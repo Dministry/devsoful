@@ -35,14 +35,14 @@ const Contact = () => {
             </Head>
             <ContactPageHeader />
 
-            <div className="isolate border bg-white px-6 py-24 sm:py-24 lg:px-8">
-                <form action="#" method="POST" className="mx-auto mt-16 max-w-3xl sm:mt-2 border border-grey-300 p-16 rounded-xl">
-                    <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
+            <div className="isolate border bg-white px-6 py-2 sm:py-24 lg:px-8">
+                <form action="#" method="POST" className="mx-auto sm:mt-16 mt-4 max-w-3xl sm:mt-2 border border-grey-300 sm:p-16 p-8 rounded-xl">
+                    <div className="grid grid-cols-1 gap-x-8 sm:gap-y-6 gap-y-3 sm:grid-cols-2">
                         <div>
                             {/* <label htmlFor="first-name" className="block text-sm font-semibold leading-6 text-gray-900">
                                 First name
                             </label> */}
-                            <div className="mt-2.5">
+                            <div className="mt-1">
                                 <input
                                     placeholder="Name"
                                     type="text"
