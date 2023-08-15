@@ -97,11 +97,11 @@ const Footer = () => {
             <div className="mx-auto max-w-6xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32 border-t border-gray-900/10">
                 <div className="xl:grid xl:grid-cols-3 xl:gap-8 ml-24">
                     <div className="space-y-4">
-                        <h2 className="font-bold h-7"><span className="text-primary-100">DEVS</span>OFUL</h2>
-                        <p className="text-sm leading-6 text-gray-500">
+                        <h2 className="font-Bebas h-7"><span className="text-primary-100">DEVS</span>OFUL</h2>
+                        <p className="text-xs leading-4 text-gray-500 font-Monserat">
                             Lorem ipsum dolor sit amet consectetur. Tellus arcu quam nullam senectus luctus eleifend risus morbi. Enim sit
                         </p>
-                        <h2 className="font-bold h-7 tracking-tight">FIND US ON SOCIALS</h2>
+                        <h2 className="font-Bebas h-7 tracking-tight">FIND US ON SOCIALS</h2>
                         <div className="flex space-x-6">
                             {navigation.social.map((item) => (
                                 <a key={item.name} href={item.href} className="text-gray-400 hover:text-gray-500">
@@ -114,11 +114,11 @@ const Footer = () => {
                     <div className="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
                         <div className="md:grid md:grid-cols-2 md:gap-8">
                             <div>
-                                <h3 className="text-sm font-semibold leading-6 text-primary-100">POPULAR LIST</h3>
-                                <ul role="list" className="mt-6 space-y-4">
+                                <h3 className="text-sm font-Bebas leading-4 text-primary-100">POPULAR LIST</h3>
+                                <ul role="list" className="mt-6 space-y-2">
                                     {navigation.popular.map((item) => (
                                         <li key={item.name}>
-                                            <a href={item.href} className="text-sm leading-6 text-gray-600 hover:text-gray-900">
+                                            <a href={item.href} className="text-xs leading-4 text-gray-600 hover:text-gray-900 font-Monserat">
                                                 {item.name}
                                             </a>
                                         </li>
@@ -126,11 +126,11 @@ const Footer = () => {
                                 </ul>
                             </div>
                             <div className="mt-10 md:mt-0">
-                                <h3 className="text-sm font-semibold leading-6 text-primary-100">TRENDING</h3>
-                                <ul role="list" className="mt-6 space-y-4">
+                                <h3 className="text-sm font-Bebas leading-4 text-primary-100">TRENDING</h3>
+                                <ul role="list" className="mt-6 space-y-2">
                                     {navigation.support.map((item) => (
                                         <li key={item.name}>
-                                            <a href={item.href} className="text-sm leading-6 text-gray-600 hover:text-gray-900">
+                                            <a href={item.href} className="text-xs leading-4 text-gray-600 hover:text-gray-900 font-Monserat">
                                                 {item.name}
                                             </a>
                                         </li>
@@ -140,7 +140,7 @@ const Footer = () => {
                         </div>
                         {/* <div className="md:grid md:grid-cols-2 md:gap-8">
                             <div>
-                                <h3 className="text-sm font-semibold leading-6 text-gray-900">Company</h3>
+                                <h3 className="text-sm font-Bebas leading-6 text-gray-900">Company</h3>
                                 <ul role="list" className="mt-6 space-y-4">
                                     {navigation.company.map((item) => (
                                         <li key={item.name}>
@@ -152,7 +152,7 @@ const Footer = () => {
                                 </ul>
                             </div>
                             <div className="mt-10 md:mt-0">
-                                <h3 className="text-sm font-semibold leading-6 text-gray-900">Legal</h3>
+                                <h3 className="text-sm font-Bebas leading-6 text-gray-900">Legal</h3>
                                 <ul role="list" className="mt-6 space-y-4">
                                     {navigation.legal.map((item) => (
                                         <li key={item.name}>
@@ -167,7 +167,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="flex items-center justify-center mx-auto mt-16 border-t border-gray-900/10 pt-8 sm:mt-20 lg:mt-24">
-                    <p className="text-xs leading-5 text-gray-500">Devsoful, &copy; 2023 All rights reserved.</p>
+                    <p className="text-xs leading-5 text-gray-500 font-Monserat">Devsoful, &copy; 2023 All rights reserved.</p>
                 </div>
             </div>
         </footer>

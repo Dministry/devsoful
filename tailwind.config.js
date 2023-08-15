@@ -20,8 +20,8 @@ module.exports = withMT({
         }
       },
       fontFamily: {
-        'Thin': ['BabasNeue'],
-        'Light': ['Axiforma-Light'],
+        'Bebas': ['BebasNeue-Regular'],
+        'Monserat': ['Monserat-Regular'],
         'Medium': ['Axiforma-Medium'],
         'Bold': ['BebasNeue-Regular'],
 

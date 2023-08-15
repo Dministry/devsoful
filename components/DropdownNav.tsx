@@ -71,7 +71,7 @@ function DropdownNav() {
     const renderItems = navListMenuItems.map(({ title, href }) => (
         <a href={href} key={title}>
             <MenuItem>
-                <Typography variant="h6" color="" className="hidden mx-auto flex items-center justify-center text-primary-100 text-center">
+                <Typography variant="h6" color="" className="hidden mx-auto flex items-center justify-center text-primary-100 text-center text-sm font-Bebas">
                     {title}
                 </Typography>
             </MenuItem>
@@ -82,7 +82,7 @@ function DropdownNav() {
         <React.Fragment>
             <Menu allowHover open={isMenuOpen} handler={setIsMenuOpen}>
                 <MenuHandler>
-                    <Typography as="a" href="#" variant="bold" className="font-bold text-white text-center">
+                    <Typography as="a" href="#" variant="bold" className="font-Bebas text-white text-center">
                         <MenuItem className="text-white flex lg:rounded-full items-center justify-center">
                             Services{" "}
                             <ChevronDownIcon
@@ -103,7 +103,7 @@ function DropdownNav() {
                     >
                         <RocketLaunchIcon strokeWidth={1} className="h-28 w-28" />
                     </Card> */}
-                    <ul className="col-span-12 flex w-full flex-col gap-1">
+                    <ul className="col-span-12 flex w-full flex-col gap-1 text-xs">
                         {renderItems}
                     </ul>
                 </MenuList>

@@ -34,10 +34,10 @@ const faqs = [
 const ProductLife = () => {
     return (
         <div className="w-3/4 my-20 mx-auto md:px-6">
-            <h2 className="mt-16 mb-2 text-center text-3xl font-bold">
+            <h2 className="mt-16 mb-2 text-center text-3xl font-Bebas">
                 FULL PRODUCT <span className="text-primary-100">LIFE CYCLE </span>
             </h2>
-            <p className="text-gray-500 mb-8 dark:text-neutral-300 flex items-center justify-center text-center">
+            <p className="text-gray-500 mb-8 dark:text-neutral-300 flex items-center justify-center text-center font-Monserat text-sm">
                 Your products create interest and drive sales. They're what keeps customers coming back. But taking an idea from inception to launch is a massive task that needs to be approached seriously.
                 </p>
             <div className="flex items-center justify-center">
@@ -58,7 +58,7 @@ const ProductLife = () => {
                                         <>
                                             <dt>
                                                 <Disclosure.Button className="flex w-full items-start justify-between text-left text-gray-900">
-                                                    <span className="text-base font-semibold leading-7 text-primary-100">{faq.question}</span>
+                                                    <span className="text-base font-Bebas leading-7 text-primary-100">{faq.question}</span>
                                                     <span className="ml-6 flex h-7 items-center">
                                                         {open ? (
                                                             <MinusSmallIcon className="h-6 w-6" aria-hidden="true" />
@@ -69,7 +69,7 @@ const ProductLife = () => {
                                                 </Disclosure.Button>
                                             </dt>
                                             <Disclosure.Panel as="dd" className="mt-2 pr-12">
-                                                <p className="text-base leading-7 text-gray-600">{faq.answer}</p>
+                                                <p className="text-base leading-7 text-gray-500 font-Monserat text-sm">{faq.answer}</p>
                                             </Disclosure.Panel>
                                         </>
                                     )}

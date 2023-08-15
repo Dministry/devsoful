@@ -15,7 +15,7 @@ const LatestWork = () => {
         <div className="rounded-xl bg-primary-100 pb-6">
             <Carousel transition={{ duration: 2 }} className="pb-1">
                 <div className="container mx-auto px-5 py-12 lg:px-32 lg:pt-12">
-                    <h2 className="mb-4 text-center text-3xl font-bold text-white">
+                    <h2 className="mb-4 text-center text-3xl font-Bebas text-white">
                         OUR <span className="text-white">LATEST </span>WORKS
                     </h2>
                     <div className="-m-0 flex flex-wrap md:-m-0">
@@ -78,7 +78,7 @@ const LatestWork = () => {
 
                 {/* 2 */}
                 <div className="container mx-auto px-5 py-12 lg:px-32 lg:pt-12">
-                    <h2 className="mb-4 text-center text-3xl font-bold text-white">
+                    <h2 className="mb-4 text-center text-3xl font-Bebas text-white">
                         OUR <span className="text-white">LATEST </span>WORKS
                     </h2>
                     <div className="-m-0 flex flex-wrap md:-m-0">
@@ -140,7 +140,7 @@ const LatestWork = () => {
                 </div>
 
             </Carousel>
-            <button className="mx-auto flex items-center rounded-full justify-center bg-transparent hover:bg-white text-white font-semibold hover:text-primary-100 py-2 px-4 border border-white hover:border-transparent rounded">
+            <button className="mx-auto flex items-center rounded-full justify-center bg-transparent hover:bg-white text-white font-Bebas hover:text-primary-100 py-2 px-4 border border-white hover:border-transparent rounded">
                 SEE ALL PROJECTS
             </button>
         </div>

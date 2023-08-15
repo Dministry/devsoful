@@ -3,15 +3,15 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: "BaabaNeue-Regular";
-    src: url('../fonts/BebasNeue-Regular.otf');
+    font-family: "BebasNeue-Regular";
+    src: url('../fonts/Bebas_Neue/BebasNeue-Regular.ttf');
     font-weight: regular;
     font-style: regular;
   }
     
   @font-face {
     font-family: "Monserat-Regular";
-    src: url('../fonts/BebasNeue-Regular.otf');
+    src: url('../fonts/Montserrat/static/Montserrat-Regular.ttf');
     font-weight: black;
     font-style: normal;
   }

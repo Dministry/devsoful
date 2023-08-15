@@ -58,11 +58,11 @@ function classNames(...classes) {
 const OurTech = () => {
     return (
         <div className="pb-6">
-            <h2 className="mb-1 mt-10 text-center text-3xl font-bold text-primary-100">
+            <h2 className="mb-1 mt-10 text-center text-3xl font-Bebas text-primary-100">
                 OUR <span className="text-primary-100">TECHNOLOGIES </span>
             </h2>
             <span className="flex items-center justify-center text center">
-                <p className="text-gray-400 font-thin max-w-xl dark:text-neutral-300 text-sm font-serif flex items-center justify-center text-center">
+                <p className="text-gray-400 font-Monserat max-w-xl dark:text-neutral-300 text-xs font-serif flex items-center justify-center text-center">
                     We build market-focused brands that connect
                 </p>
             </span>
@@ -225,14 +225,14 @@ const OurTech = () => {
             <div className="divide-y divide-grey-900">
                 <div className="inline-flex flex-col-reverse sm:grid grid-cols-1 sm:grid-cols-2 sm:gap-12 gap-4 sm:mt-24 mt-1 mb-5 max-w-5xl sm:mx-auto mx-12">
                     <div className="flex flex-col justify-start mt-1 sm:mt-16 max-w-md items-start flex-1 ">
-                        <h2 className="mx-auto sm:mx-0 text-start sm:text-4xl text-xl font-bold">
+                        <h2 className="mx-auto sm:mx-0 text-start sm:text-4xl text-xl font-Bebas">
                             <span className="text-primary-100">UI/UX DESIGN</span>
                         </h2>
-                        <p className="text-gray-500 dark:text-neutral-300 sm:text-start text-center font-thin text-sm mt-2">
+                        <p className="text-gray-500 dark:text-neutral-300 sm:text-start text-center font-Monserat text-xs mt-2">
                             Bring your brand to life online with a bespoke website that boosts engagement and brings a return on creativity.
                 </p>
                         <div className="w-full sm:w-3/6">
-                            <button className="flex items-center mt-4 sm:w-3/4 w-full rounded-full justify-center bg-transparent hover:bg-primary-100 text-primary-100 font-semibold hover:text-white py-2 px-4 border border-primary-100 hover:border-transparent rounded">
+                            <button className="flex items-center mt-4 sm:w-3/4 w-full rounded-full justify-center bg-transparent hover:bg-primary-100 text-primary-100 font-Bebas hover:text-white py-2 px-4 border border-primary-100 hover:border-transparent rounded">
                                 TAKE ME THERE
                      </button>
                         </div>
@@ -254,14 +254,14 @@ const OurTech = () => {
                         />
                     </div>
                     <div className="flex flex-col justify-start mt-1 sm:mt-28 max-w-md items-start flex-2">
-                        <h2 className="mx-auto sm:mx-0 sm:text-start text-center sm:text-4xl text-xl font-bold">
+                        <h2 className="mx-auto sm:mx-0 sm:text-start text-center sm:text-4xl text-xl font-Bebas">
                             <span className="text-primary-100">WEB DEVELOPMENT</span>
                         </h2>
-                        <p className="text-gray-500 dark:text-neutral-300 sm:text-start text-center font-thin text-sm mt-2">
+                        <p className="text-gray-500 dark:text-neutral-300 sm:text-start text-center font-Monserat text-xs mt-2">
                             We’ll build your site to suit your specific needs, creating the custom functions to make it faster and more secure.
                 </p>
                         <div className="w-full sm:w-3/6">
-                            <button className="w-full sm:w-3/4 flex items-center mt-4 rounded-full justify-center bg-transparent hover:bg-primary-100 text-primary-100 font-semibold hover:text-white py-2 px-4 border border-primary-100 hover:border-transparent rounded">
+                            <button className="w-full sm:w-3/4 flex items-center mt-4 rounded-full justify-center bg-transparent hover:bg-primary-100 text-primary-100 font-Bebas hover:text-white py-2 px-4 border border-primary-100 hover:border-transparent rounded">
                                 TAKE ME THERE
                      </button>
                         </div>
@@ -270,14 +270,14 @@ const OurTech = () => {
                 {/* Section 3 */}
                 <div className="inline-flex flex-col-reverse sm:grid grid-cols-1 sm:grid-cols-2 sm:gap-12 gap-4 sm:mt-24 mt-1 mb-5 max-w-5xl                    sm:mx-auto mx-12">
                     <div className="flex flex-col justify-start mt-1 sm:mt-28 max-w-md items-start flex-1">
-                        <h2 className="mx-auto sm:mx-0 text-start sm:text-4xl text-xl font-bold">
+                        <h2 className="mx-auto sm:mx-0 text-start sm:text-4xl text-xl font-Bebas">
                             <span className="text-primary-100">WEB APPLICATION</span>
                         </h2>
-                        <p className="text-gray-500 dark:text-neutral-300 sm:text-start text-center font-thin text-sm mt-2">
+                        <p className="text-gray-500 dark:text-neutral-300 sm:text-start text-center font-Monserat text-xs mt-2">
                             Devsoful combines strategic direction with creative design to build a unique brand identity that your customers want to be a part of.
                 </p>
                         <div className="w-full sm:w-3/6">
-                            <button className="flex items-center mt-4 sm:w-3/4 w-full rounded-full justify-center bg-transparent hover:bg-primary-100 text-primary-100 font-semibold hover:text-white py-2 px-4 border border-primary-100 hover:border-transparent rounded">
+                            <button className="flex items-center mt-4 sm:w-3/4 w-full rounded-full justify-center bg-transparent hover:bg-primary-100 text-primary-100 font-Bebas hover:text-white py-2 px-4 border border-primary-100 hover:border-transparent rounded">
                                 TAKE ME THERE
                      </button>
                         </div>
@@ -296,10 +296,10 @@ const OurTech = () => {
             {/* Our Services */}
             <div className="w-full my-3 mx-auto md:px-12 py-20 bg-primary-100">
                 <section className="lg:mb-6 mx-auto w-3/4 mb-2 text-center lg:text-left">
-                    <h2 className="mb-2 text-center text-white text-3xl font-bold">
+                    <h2 className="mb-2 text-center text-white text-3xl font-Bebas">
                         OUR SERVICES
                          </h2>
-                    <p className="text-white font-thin mb-8 dark:text-neutral-300 flex items-center justify-center">
+                    <p className="text-white font-Monserat mb-8 dark:text-neutral-300 flex items-center justify-center text-xs">
                         We build market-focused brands that connect
                         </p>
                     <div className="grid gap-x-4 gap-y-4 lg:grid-cols-3 items-center justify-center">
@@ -308,8 +308,8 @@ const OurTech = () => {
                             <div className="mb-2 flex items-center justify-center dark:text-danger-500 lg:justify-center">
                                 <Image src={WebImg} alt="search optimization" className="w-20 h-20" />
                             </div>
-                            <h5 className="mb-2 text-lg font-bold flex items-center justify-center text-center text-white">WEB DESIGN AND DEVELOPMENT</h5>
-                            <p className="text-gray-200 dark:text-neutral-300 flex items-center justify-center text-center text-xs">
+                            <h5 className="mb-2 text-lg font-Bebas flex items-center justify-center text-center text-white">WEB DESIGN AND DEVELOPMENT</h5>
+                            <p className="text-gray-200 dark:text-neutral-300 flex items-center justify-center text-center text-xs font-Monserat">
                                 Guided by your brand style and personality, we create beautiful digital experiences in sync with your target market.
                             </p>
                         </div>
@@ -318,8 +318,8 @@ const OurTech = () => {
                             <div className="mb-2 flex items-center justify-center dark:text-danger-500 lg:justify-center">
                                 <Image src={SearchOpt} alt="search optimization" className="w-20 h-20" />
                             </div>
-                            <h5 className="mb-2 text-lg font-bold flex items-center justify-center text-center text-white">SEARCH ENGINE OPTIMIZATION</h5>
-                            <p className="text-gray-200 dark:text-neutral-300 flex items-center justify-center text-center text-xs">
+                            <h5 className="mb-2 text-lg font-Bebas flex items-center justify-center text-center text-white">SEARCH ENGINE OPTIMIZATION</h5>
+                            <p className="text-gray-200 dark:text-neutral-300 flex items-center justify-center text-center text-xs font-Monserat">
                                 With over 10 years of experience, the way we do SEO pleases both search engines and website traffic.
                             </p>
                         </div>
@@ -328,8 +328,8 @@ const OurTech = () => {
                             <div className="mb-2 flex items-center justify-center dark:text-danger-500 lg:justify-center">
                                 <Image src={Maint} alt="maintenance" className="w-20 h-20" />
                             </div>
-                            <h5 className="mb-2 text-lg font-bold flex items-center justify-center text-center text-white">WEBSITE MAINTENANCE</h5>
-                            <p className="text-gray-200 dark:text-neutral-300 flex items-center justify-center text-center text-xs">
+                            <h5 className="mb-2 text-lg font-Bebas flex items-center justify-center text-center text-white">WEBSITE MAINTENANCE</h5>
+                            <p className="text-gray-200 dark:text-neutral-300 flex items-center justify-center text-center text-xs font-Monserat">
                                 Weberous Tickets is our answer to website maintenance and edits, for your peace of mind.
                                 </p>
                         </div>
@@ -338,8 +338,8 @@ const OurTech = () => {
                             <div className="mb-2 flex items-center justify-center text-sm font-medium text-danger dark:text-danger-500 lg:justify-center">
                                 <Image src={StratCons} alt="Strategic" className="w-20 h-20" />
                             </div>
-                            <h5 className="mb-2 text-lg font-bold flex items-center justify-center text-center text-white">STRATEGIC CONSULTATION</h5>
-                            <p className="text-gray-200 dark:text-neutral-300 flex items-center justify-center text-center text-xs">
+                            <h5 className="mb-2 text-lg font-Bebas flex items-center justify-center text-center text-white">STRATEGIC CONSULTATION</h5>
+                            <p className="text-gray-200 dark:text-neutral-300 flex items-center justify-center text-center text-xs font-Monserat">
                                 We study your analytics, create targets, and come up with ways to hit them.
                                 </p>
                         </div>
@@ -348,8 +348,8 @@ const OurTech = () => {
                             <div className="mb-2 flex items-center justify-center text-sm font-medium text-danger dark:text-danger-500 lg:justify-center">
                                 <Image src={ConOpt} alt="Con" className="w-20 h-20" />
                             </div>
-                            <h5 className="mb-2 text-lg font-bold flex items-center justify-center text-center text-white">CONVERSION OPTIMIZATION</h5>
-                            <p className="text-gray-200 dark:text-neutral-300 flex items-center justify-center text-center text-xs">
+                            <h5 className="mb-2 text-lg font-Bebas flex items-center justify-center text-center text-white">CONVERSION OPTIMIZATION</h5>
+                            <p className="text-gray-200 dark:text-neutral-300 flex items-center justify-center text-center text-xs font-Monserat">
                                 Changing a layout, or strategically positioning your products can change the whole game.
                                 </p>
                         </div>
@@ -358,8 +358,8 @@ const OurTech = () => {
                             <div className="mb-2 flex items-center justify-center text-sm font-medium text-danger dark:text-danger-500 lg:justify-center">
                                 <Image src={Shopify} alt="shopify" className="w-20 h-20" />
                             </div>
-                            <h5 className="mb-2 text-lg font-bold flex items-center justify-center text-center text-white">SHOPIFY PLUS</h5>
-                            <p className="text-gray-200 dark:text-neutral-300 flex items-center justify-center text-center text-xs">
+                            <h5 className="mb-2 text-lg font-Bebas flex items-center justify-center text-center text-white">SHOPIFY PLUS</h5>
+                            <p className="text-gray-200 dark:text-neutral-300 flex items-center justify-center text-center text-xs font-Monserat">
                                 Enterprise eCommerce solutions with a partner you can trust a nd has been doing it for years.
                                 </p>
                         </div>
@@ -378,14 +378,14 @@ const OurTech = () => {
                     />
                 </div>
                 <div className="flex flex-col justify-start mt-1 sm:mt-28 max-w-md items-start flex-2">
-                    <h2 className="mx-auto sm:mx-0 sm:text-start text-center sm:text-4xl text-xl font-bold">
+                    <h2 className="mx-auto sm:mx-0 sm:text-start text-center sm:text-4xl text-xl font-Bebas">
                         <span className="text-primary-100">BRANDING</span>
                     </h2>
-                    <p className="text-gray-500 dark:text-neutral-300 sm:text-start text-center font-thin text-sm mt-2">
+                    <p className="text-gray-500 dark:text-neutral-300 sm:text-start text-center font-Monserat text-xs mt-2">
                         With a proven track record for game-changing results, our marketing experts design digital campaigns that captivate and convert.
                 </p>
                     <div className="w-full sm:w-3/6">
-                        <button className="w-full sm:w-3/4 flex items-center mt-4 rounded-full justify-center bg-transparent hover:bg-primary-100 text-primary-100 font-semibold hover:text-white py-2 px-4 border border-primary-100 hover:border-transparent rounded">
+                        <button className="w-full sm:w-3/4 flex items-center mt-4 rounded-full justify-center bg-transparent hover:bg-primary-100 text-primary-100 font-Bebas hover:text-white py-2 px-4 border border-primary-100 hover:border-transparent rounded">
                             TAKE ME THERE
                      </button>
                     </div>
@@ -395,14 +395,14 @@ const OurTech = () => {
             <div className="divide-y divide-grey-900">
                 <div className="inline-flex flex-col-reverse sm:grid grid-cols-1 sm:grid-cols-2 sm:gap-12 gap-4 sm:mt-24 mt-1 mb-5 max-w-5xl sm:mx-auto mx-12">
                     <div className="flex flex-col justify-start mt-1 sm:mt-20 max-w-md items-start flex-1 ">
-                        <h2 className="mx-auto sm:mx-0 text-start sm:text-4xl text-xl font-bold">
+                        <h2 className="mx-auto sm:mx-0 text-start sm:text-4xl text-xl font-Bebas">
                             <span className="text-primary-100">E-COMMERCE</span>
                         </h2>
-                        <p className="text-gray-500 dark:text-neutral-300 sm:text-start text-center font-thin text-sm mt-2">
+                        <p className="text-gray-500 dark:text-neutral-300 sm:text-start text-center font-Monserat text-xs mt-2">
                             Reinvent your online store with an expert team who know what it takes to turn clicks into customers and keep them coming back.
                 </p>
                         <div className="w-full sm:w-3/6">
-                            <button className="flex items-center mt-4 sm:w-3/4 w-full rounded-full justify-center bg-transparent hover:bg-primary-100 text-primary-100 font-semibold hover:text-white py-2 px-4 border border-primary-100 hover:border-transparent rounded">
+                            <button className="flex items-center mt-4 sm:w-3/4 w-full rounded-full justify-center bg-transparent hover:bg-primary-100 text-primary-100 font-Bebas hover:text-white py-2 px-4 border border-primary-100 hover:border-transparent rounded">
                                 TAKE ME THERE
                      </button>
                         </div>
@@ -416,7 +416,7 @@ const OurTech = () => {
                     </div>
                 </div>
                 {/* Section 3 */}
-                <div className="sm:grid grid-cols-1 sm:grid-cols-2 sm:gap-12 gap-4 sm:mt-24 mt-1 mb-5 max-w-5xl                    sm:mx-auto mx-12">
+                <div className="sm:grid grid-cols-1 sm:grid-cols-2 sm:gap-12 gap-4 sm:mt-24 mt-1 mb-5 max-w-5xl sm:mx-auto mx-12">
                     <div className="mt-8">
                         <Image
                             src={AustImg6}
@@ -424,14 +424,14 @@ const OurTech = () => {
                         />
                     </div>
                     <div className="flex flex-col justify-start mt-1 sm:mt-24 max-w-md items-start flex-1">
-                        <h2 className="mx-auto sm:mx-0 text-start sm:text-4xl text-xl font-bold">
+                        <h2 className="mx-auto sm:mx-0 text-start sm:text-4xl text-xl font-Bebas">
                             <span className="text-primary-100">WORDPRESS</span>
                         </h2>
-                        <p className="text-gray-500 dark:text-neutral-300 sm:text-start text-center font-thin text-sm mt-2">
+                        <p className="text-gray-500 dark:text-neutral-300 sm:text-start text-center font-Monserat text-xs mt-2">
                             Our approach decouples WordPress CMS from the front end technology to tighten security and improve overall speed.
                         </p>
                         <div className="w-full sm:w-3/6">
-                            <button className="flex items-center mt-4 sm:w-3/4 w-full rounded-full justify-center bg-transparent hover:bg-primary-100 text-primary-100 font-semibold hover:text-white py-2 px-4 border border-primary-100 hover:border-transparent rounded">
+                            <button className="flex items-center mt-4 sm:w-3/4 w-full rounded-full justify-center bg-transparent hover:bg-primary-100 text-primary-100 font-Bebas hover:text-white py-2 px-4 border border-primary-100 hover:border-transparent rounded">
                                 TAKE ME THERE
                      </button>
                         </div>
@@ -516,12 +516,12 @@ const OurTech = () => {
                                     alt="Lotfi"
                                 />
                                 <div className="mt-2 flex items-center justify-center space-x-3 text-base">
-                                    <div className="font-semibold text-gray-900 text-xl">Behrouz Lotfi</div>
+                                    <div className="font-Bebas text-gray-900 text-xl">Behrouz Lotfi</div>
                                     <svg viewBox="0 0 2 2" width={3} height={3} aria-hidden="true" className="fill-gray-900">
                                         <circle cx={1} cy={1} r={1} />
                                     </svg>
                                 </div>
-                                <div className="text-gray-400 flex items-center justify-center">United Kingdom, Manchester</div>
+                                <div className="text-gray-400 flex items-center justify-center font-Monserat">United Kingdom, Manchester</div>
                                 {/* Test */}
                                 {/* <div className="-my-10">
                                     {reviews.map((review, reviewIdx) => (
@@ -559,7 +559,7 @@ const OurTech = () => {
                                 </div> */}
                                 {/* Test */}
                             </figcaption>
-                            <blockquote className="text-center text-xl font-thin leading-8 text-gray-900 sm:text-xl sm:leading-9">
+                            <blockquote className="text-center text-xl font-Monserat leading-8 text-gray-900 sm:text-xl sm:leading-9">
                                 <p>
                                     “you'll get the best of what you put in. the team is working at their best to provide us variety of paces and qualities. had a great experience working with them. thanks a lot.”
                                 </p>
@@ -580,12 +580,12 @@ const OurTech = () => {
                                     alt="Lotfi"
                                 />
                                 <div className="mt-2 flex items-center justify-center space-x-3 text-base">
-                                    <div className="font-semibold text-gray-900 text-xl">Behrouz Lotfi</div>
+                                    <div className="font-Bebas text-gray-900 text-xl">Behrouz Lotfi</div>
                                     <svg viewBox="0 0 2 2" width={3} height={3} aria-hidden="true" className="fill-gray-900">
                                         <circle cx={1} cy={1} r={1} />
                                     </svg>
                                 </div>
-                                <div className="text-gray-400 flex items-center justify-center">United Kingdom, Manchester</div>
+                                <div className="text-gray-400 flex items-center justify-center font-Monserat">United Kingdom, Manchester</div>
                                 {/* Test */}
                                 {/* <div className="-my-10">
                                     {reviews.map((review, reviewIdx) => (
@@ -623,7 +623,7 @@ const OurTech = () => {
                                 </div> */}
                                 {/* Test */}
                             </figcaption>
-                            <blockquote className="text-center text-xl font-thin leading-8 text-gray-900 sm:text-xl sm:leading-9">
+                            <blockquote className="text-center text-xl font-Monserat leading-8 text-gray-900 sm:text-xl sm:leading-9">
                                 <p>
                                     “you'll get the best of what you put in. the team is working at their best to provide us variety of paces and qualities. had a great experience working with them. thanks a lot.”
                                 </p>

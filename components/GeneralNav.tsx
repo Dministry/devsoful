@@ -20,7 +20,7 @@ export default function Example() {
                 <div className="flex flex-1">
                     <div className="lg:hidden hidden lg:flex lg:gap-x-12">
                         {navigation.map((item) => (
-                            <a key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-white">
+                            <a key={item.name} href={item.href} className="text-sm font-Bebas leading-6 text-white">
                                 {item.name}
                             </a>
                         ))}
@@ -39,7 +39,7 @@ export default function Example() {
                 <a href="/" className="-m-1.5 p-1.5">
                     <span className="sr-only">Your Company</span>
                     {/* <img className="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="" /> */}
-                    <h1 className="sm:h-8 h-4 w-auto text-white font-bold">DEVSOFUL</h1>
+                    <h1 className="sm:h-8 h-4 w-auto text-white font-Bebas">DEVSOFUL</h1>
                 </a>
                 <div className="flex flex-1 justify-end">
                     <button
@@ -50,7 +50,7 @@ export default function Example() {
                         <span className="sr-only">Share</span>
                         <ShareIcon className="sm:h-6 sm:w-6 h-4 2-4" aria-hidden="true" />
                     </button>
-                    <a href="/contact" className="sm:text-sm text-xs font-semibold leading-6 text-primary-100 bg-white sm:p-2 p-1 rounded-full">
+                    <a href="/contact" className="sm:text-sm text-xs font-Bebas leading-6 text-primary-100 bg-white sm:p-2 p-1 rounded-full">
                         CONTACT US <span aria-hidden="true">&rarr;</span>
                     </a>
                 </div>
@@ -76,7 +76,7 @@ export default function Example() {
                                 src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
                                 alt=""
                             /> */}
-                            <h1 className="h-6 w-auto text-gray-100 font-bold">DEVSOFUL</h1>
+                            <h1 className="h-6 w-auto text-gray-100 font-Bebas">DEVSOFUL</h1>
                         </a>
                         <div className="flex flex-1 justify-end">
                             <button
@@ -87,7 +87,7 @@ export default function Example() {
                                 <span className="sr-only">Share</span>
                                 <ShareIcon className="h-6 w-6" aria-hidden="true" />
                             </button>
-                            <a href="#" className="text-sm font-semibold leading-6 text-gray-100">
+                            <a href="#" className="text-sm font-Bebas leading-6 text-gray-100">
                                 CONTACT US <span aria-hidden="true">&rarr;</span>
                             </a>
                         </div>
@@ -97,7 +97,7 @@ export default function Example() {
                             <a
                                 key={item.name}
                                 href={item.href}
-                                className="mx-auto text-center block rounded-full px-3 py-2 text-white font-semibold leading-7 hover:text-primary-100 hover:bg-gray-50"
+                                className="mx-auto text-center block rounded-full px-3 py-2 text-white font-Bebas leading-7 hover:text-primary-100 hover:bg-gray-50"
                             >
                                 {item.name}
                             </a>

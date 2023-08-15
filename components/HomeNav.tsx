@@ -1,17 +1,17 @@
 import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import { Bars3Icon, XMarkIcon, ShareIcon } from '@heroicons/react/24/outline'
 import DropdownNav from '../components/DropdownNav'
 
 const navigation = [
     { name: 'Home', href: '/' },
-    // { name: 'Service', href: '/service' },
+    // { name: 'Service', href: '/service', children: [{ name: 'Branding', href: '/service/branding' }] },
     { name: 'Pricing', href: '/pricing' },
     { name: 'About', href: '/about' },
     { name: 'Contact', href: '/contact' },
 ]
 
-export default function HomeNav() {
+export default function Example() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
     return (
@@ -20,7 +20,7 @@ export default function HomeNav() {
                 <div className="flex flex-1">
                     <div className="lg:hidden hidden lg:flex lg:gap-x-12">
                         {navigation.map((item) => (
-                            <a key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-white">
+                            <a key={item.name} href={item.href} className="text-sm font-Bebas leading-6 text-white">
                                 {item.name}
                             </a>
                         ))}
@@ -39,11 +39,19 @@ export default function HomeNav() {
                 <a href="/" className="-m-1.5 p-1.5">
                     <span className="sr-only">Your Company</span>
                     {/* <img className="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="" /> */}
-                    <h1 className="h-8 w-auto text-white font-bold">DEVSOFUL</h1>
+                    <h1 className="sm:h-8 h-4 w-auto text-white font-Bebas">DEVSOFUL</h1>
                 </a>
                 <div className="flex flex-1 justify-end">
-                    <a href="#" className="text-sm font-semibold leading-6 text-primary-100 bg-white p-2 rounded-full">
-                        CONTACT US <span aria-hidden="true">&rarr;</span>
+                    <button
+                        type="button"
+                        className="relative rounded-full sm:mr-12 p-1 text-white hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+                    >
+                        <span className="absolute -inset-1.5" />
+                        <span className="sr-only">Share</span>
+                        <ShareIcon className="sm:h-6 sm:w-6 h-4 2-4" aria-hidden="true" />
+                    </button>
+                    <a href="/contact" className="text-xs font-Monserat font-Bebas leading-6 text-primary-100 bg-white sm:p-2 p-1 rounded-full">
+                        GET A QUOTE <span aria-hidden="true">&rarr;</span>
                     </a>
                 </div>
             </nav>
@@ -68,10 +76,18 @@ export default function HomeNav() {
                                 src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
                                 alt=""
                             /> */}
-                            <h1 className="h-6 w-auto text-gray-100 font-bold">DEVSOFUL</h1>
+                            <h1 className="h-6 w-auto text-gray-100 font-Bebas">DEVSOFUL</h1>
                         </a>
                         <div className="flex flex-1 justify-end">
-                            <a href="#" className="text-sm font-semibold leading-6 text-gray-100">
+                            <button
+                                type="button"
+                                className="relative rounded-full mr-12 p-1 text-white hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+                            >
+                                <span className="absolute -inset-1.5" />
+                                <span className="sr-only">Share</span>
+                                <ShareIcon className="h-6 w-6" aria-hidden="true" />
+                            </button>
+                            <a href="#" className="text-sm font-Bebas leading-6 text-gray-100">
                                 CONTACT US <span aria-hidden="true">&rarr;</span>
                             </a>
                         </div>
@@ -81,7 +97,7 @@ export default function HomeNav() {
                             <a
                                 key={item.name}
                                 href={item.href}
-                                className="mx-auto text-center block rounded-full px-3 py-2 text-white font-semibold leading-7 hover:text-primary-100 hover:bg-gray-50"
+                                className="mx-auto text-center block rounded-full px-3 py-2 text-white font-Bebas leading-7 hover:text-primary-100 hover:bg-gray-50"
                             >
                                 {item.name}
                             </a>

@@ -110,8 +110,8 @@ const Pricing = () => {
 			<div className="bg-white py-24 sm:py-32">
 				<div className="mx-auto max-w-7xl px-6 lg:px-8">
 					<div className="mx-auto max-w-4xl text-center">
-						{/* <h2 className="text-base font-semibold leading-7 text-indigo-600">Pricing</h2> */}
-						<p className="mt-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
+						{/* <h2 className="text-base font-Bebas leading-7 text-indigo-600">Pricing</h2> */}
+						<p className="mt-2 text-4xl font-Bebas tracking-tight text-gray-900 sm:text-5xl">
 							Pricing plans
                         </p>
 					</div>
@@ -120,7 +120,7 @@ const Pricing = () => {
 						<RadioGroup
 							value={frequency}
 							onChange={setFrequency}
-							className="grid grid-cols-6 gap-x-1 rounded-full p-2 text-center text-xs font-semibold leading-5 ring-1 ring-inset ring-gray-200"
+							className="grid grid-cols-6 gap-x-1 rounded-full p-2 text-center text-xs font-Bebas leading-5 ring-1 ring-inset ring-gray-200"
 						>
 							<RadioGroup.Label className="sr-only">Payment frequency</RadioGroup.Label>
 							{frequencies.map((option) => (
@@ -150,7 +150,7 @@ const Pricing = () => {
 							>
 								<div className="flex items-center justify-center">
 									{tier.mostPopular ? (
-										<p className=" flex items-center justify-center w-full rounded-full bg-primary-100 px-12 py-2 text-xs font-semibold leading-5 text-white">
+										<p className=" flex items-center justify-center w-full rounded-full bg-primary-100 px-12 py-2 text-xs font-Bebas leading-5 text-white">
 											RECOMMENDED
                                         </p>
 									) : null}
@@ -160,16 +160,16 @@ const Pricing = () => {
 									id={tier.id}
 									className={classNames(
 										tier.mostPopular ? 'text-primary-100 mt-2' : 'text-gray-900',
-										'text-lg font-semibold leading-8 flex items-center justify-center'
+										'text-lg font-Bebas leading-8 flex items-center justify-center'
 									)}
 								>
 									{tier.name}
 								</h3>
-								<p className="flex items-center justify-center font-semibold mt-2 text-xs leading-6 text-gray-600">{tier.description}</p>
+								<p className="flex items-center justify-center font-Bebas mt-2 text-xs leading-6 text-gray-600">{tier.description}</p>
 								<p className="flex items-center justify-center mt-0 text-xs text-center text-gray-500">{tier.subDescription}</p>
 								<p className="flex items-center justify-center mt-4 flex items-baseline gap-x-1">
-									<span className="text-4xl font-bold tracking-tight text-primary-100">{tier.price[frequency.value]}</span>
-									<span className="text-sm font-semibold leading-6 text-primary-100">{frequency.priceSuffix}</span>
+									<span className="text-4xl font-Bebas tracking-tight text-primary-100">{tier.price[frequency.value]}</span>
+									<span className="text-sm font-Bebas leading-6 text-primary-100">{frequency.priceSuffix}</span>
 								</p>
 
 								<ul role="list" className="mt-8 space-y-3 text-sm leading-6 text-gray-600 xl:mt-10">
@@ -187,7 +187,7 @@ const Pricing = () => {
 										tier.mostPopular
 											? 'bg-primary-100 text-white shadow-sm hover:bg-indigo-500'
 											: 'text-primary-100 ring-1 ring-inset ring-primary-100 hover:ring-indigo-300',
-										'mt-6 block rounded-full py-2 px-3 text-center text-sm font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600'
+										'mt-6 block rounded-full py-2 px-3 text-center text-sm font-Bebas leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600'
 									)}
 								>
 									GET STARTED

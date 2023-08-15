@@ -46,10 +46,10 @@ const About = () => {
             </Head>
             <AboutPageHeader />
             <div className="w-3/4 my-20 mx-auto md:px-6">
-                <h2 className="mt-16 mb-2 text-center text-3xl font-bold">
+                <h2 className="mt-16 mb-2 text-center text-3xl font-Bebas">
                     OUR <span className="text-primary-100">PILLARS </span>
                 </h2>
-                <p className="text-gray-500 mb-2 dark:text-neutral-300 flex items-center justify-center text-center">
+                <p className="text-gray-500 mb-2 dark:text-neutral-300 flex items-center justify-center text-center font-Monserat text-xs">
                     Our greatest satisfaction is our clients success. Online presence is one of the most important aspects of today's business. We understand business and combine it with the high level technical solutions to become the only partner you will ever need for your brand to excel and concur new heights.
                 </p>
 
@@ -65,7 +65,7 @@ const About = () => {
                                             <>
                                                 <dt>
                                                     <Disclosure.Button className="flex w-full items-start justify-between text-left text-gray-900">
-                                                        <span className="text-base font-semibold leading-7 text-primary-100">{faq.question}</span>
+                                                        <span className="text-base font-Bebas leading-7 text-primary-100">{faq.question}</span>
                                                         <span className="ml-6 flex h-7 items-center">
                                                             {open ? (
                                                                 <MinusSmallIcon className="h-4 w-4 text-primary-100" aria-hidden="true" />
@@ -77,7 +77,7 @@ const About = () => {
                                                     {/* <faq.icon className="h-4 w-4 text-primary-100" aria-hidden="true" /> */}
                                                 </dt>
                                                 <Disclosure.Panel as="dd" className="mt-2 pr-12">
-                                                    <p className="text-xs leading-7 text-gray-500">{faq.answer}</p>
+                                                    <p className="text-xs leading-5 text-gray-500 font-Monserat">{faq.answer}</p>
                                                 </Disclosure.Panel>
                                             </>
                                         )}

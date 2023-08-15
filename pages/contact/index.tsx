@@ -37,9 +37,9 @@ const Contact = () => {
 
             <div className="isolate border bg-white px-6 py-2 sm:py-24 lg:px-8">
                 <form action="#" method="POST" className="mx-auto sm:mt-16 mt-4 max-w-3xl sm:mt-2 border border-grey-300 sm:p-16 p-8 rounded-xl">
-                    <div className="grid grid-cols-1 gap-x-8 sm:gap-y-6 gap-y-3 sm:grid-cols-2">
+                    <div className="grid grid-cols-1 gap-x-8 sm:gap-y-6 gap-y-3 sm:grid-cols-2 font-Monserat">
                         <div>
-                            {/* <label htmlFor="first-name" className="block text-sm font-semibold leading-6 text-gray-900">
+                            {/* <label htmlFor="first-name" className="block text-sm font-Bebas leading-6 text-gray-900">
                                 First name
                             </label> */}
                             <div className="mt-1">
@@ -92,7 +92,7 @@ const Contact = () => {
 
 
                         {/* <div className="sm:col-span-2">
-                            <label htmlFor="phone-number" className="block text-sm font-semibold leading-6 text-gray-900">
+                            <label htmlFor="phone-number" className="block text-sm font-Bebas leading-6 text-gray-900">
                                 Phone number
                             </label>
                             <div className="relative mt-2.5">
@@ -161,7 +161,7 @@ const Contact = () => {
                             </div>
                             <Switch.Label className="text-sm leading-6 text-gray-600">
                                 By selecting this, you agree to our{' '}
-                                <a href="#" className="font-semibold text-indigo-600">
+                                <a href="#" className="font-Bebas text-indigo-600">
                                     privacy&nbsp;policy
                         </a>
                                 .
@@ -171,7 +171,7 @@ const Contact = () => {
                     <div className="mt-8">
                         <button
                             type="submit"
-                            className="block w-full rounded-3xl bg-primary-100 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-primary-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                            className="block w-full rounded-3xl bg-primary-100 px-3.5 py-2.5 text-center text-sm font-Monserat text-white shadow-sm hover:bg-primary-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                         >
                             SEND
                         </button>

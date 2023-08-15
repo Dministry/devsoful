@@ -78,21 +78,21 @@ export default function AboutPageHeader() {
                         </div>
                         <div className="mx-auto max-w-7xl px-6 lg:px-8">
                             <div className="mx-auto lg:mx-0">
-                                <h2 className="flex items-center justify-center text-4xl font-bold tracking-tight text-white sm:text-2xl text-center">WELCOME TO DEVSOFUL</h2>
-                                <h2 className="flex items-center justify-center mt-2 text-lg font-bold tracking-tight text-white sm:text-sm text-center">One PARTNER FOR ALL YOUR DIGITAL NEEDS.</h2>
+                                <h2 className="flex items-center justify-center text-4xl font-Bebas tracking-tight text-white sm:text-2xl text-center">WELCOME TO DEVSOFUL</h2>
+                                <h2 className="flex items-center justify-center mt-2 text-lg font-Bebas text-white sm:text-sm text-center">One PARTNER FOR ALL YOUR DIGITAL NEEDS.</h2>
                             </div>
-                            <span className="flex items-center justify-center text-white text center">
-                                <p className="text-gray-200 font-thin max-w-4xl mt-3 dark:text-neutral-300 text-sm font-serif flex items-center justify-center text-center">
+                            <span className="flex items-center justify-center text-white text-center">
+                                <p className="text-gray-200 font-Monserat max-w-4xl mt-3 dark:text-neutral-300 text-xs flex items-center justify-center text-center">
                                     At Devsoful, we are passionate about crafting exceptional web experiences that leave a lasting impression. As a dynamic team of creative minds, we specialize in delivering cutting-edge solutions that transform businesses into online success stories. Whether you're a startup seeking a powerful digital presence or an established brand looking to revamp your online identity, we've got you covered.
                                 </p>
                             </span>
 
                         </div>
                         <div className="flex items-center justify-center gap-8 mt-8">
-                            <button className="rounded-full bg-transparent hover:bg-white text-white font-semibold hover:text-primary-100 py-2 px-4 border border-white hover:border-transparent rounded">
+                            <button className="rounded-full bg-transparent hover:bg-white text-white font-Bebas hover:text-primary-100 py-2 px-4 border border-white hover:border-transparent rounded">
                                 SEE OUR WORK
                             </button>
-                            <button className="rounded-full bg-white hover:bg-white text-primary-100 font-semibold hover:text-primary-100 py-2 px-4 border border-primary-100 hover:border-transparent rounded">
+                            <button className="rounded-full bg-white hover:bg-white text-primary-100 font-Bebas hover:text-primary-100 py-2 px-4 border border-primary-100 hover:border-transparent rounded">
                                 VIEW PRICING
                             </button>
                         </div>

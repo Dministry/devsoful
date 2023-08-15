@@ -7,7 +7,7 @@ import Image from 'next/image'
 import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon, ShareIcon } from '@heroicons/react/24/outline'
-import ImgContact from '../public/contactHeroSection.png'
+import ImgContact from '../public/serviceHeroSection.png'
 
 function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
@@ -78,33 +78,33 @@ export default function ServicePageHeader() {
                         </div>
                         <div className="mx-auto max-w-7xl px-6 lg:px-8">
                             <div className="mx-auto lg:mx-0">
-                                <h2 className="flex items-center justify-center text-4xl font-bold tracking-tight text-white sm:text-2xl text-center">SERVICES</h2>
-                                <h2 className="flex items-center justify-center mt-2 text-lg font-bold tracking-tight text-white sm:text-sm text-center">A CREATIVE AGENCY AND SOFTWARE DEVELOPMENT</h2>
+                                <h2 className="flex items-center justify-center text-4xl font-Bebas tracking-tight text-white sm:text-4xl text-center">SERVICES</h2>
+                                <h2 className="flex items-center justify-center mt-2 text-lg font-Bebas text-white sm:text-sm text-center">A CREATIVE AGENCY AND SOFTWARE DEVELOPMENT</h2>
                             </div>
                             <span className="flex items-center justify-center text-white text center">
-                                <p className="text-gray-200 font-thin max-w-xl mt-3 dark:text-neutral-300 text-sm font-serif flex items-center justify-center text-center">
+                                <p className="text-gray-200 font-Monserat max-w-xl mt-3 dark:text-neutral-300 text-xs flex items-center justify-center text-center">
                                     Crafting standout websites and branding using sound strategic thinking and eye-catching digital, that creates instant impact and sparks emotion. To really see what we can do, take a look at our full range of digital creative agency services.
                                 </p>
                             </span>
 
                         </div>
                         <div className="flex flex-wrap items-center justify-center gap-6 mt-8">
-                            <button className="rounded-full bg-transparent hover:bg-white text-white font-thin hover:text-primary-100 py-2 px-4 border border-white hover:border-transparent rounded">
+                            <button className="rounded-full bg-transparent hover:bg-white text-white font-Monserat hover:text-primary-100 py-2 px-4 border border-white hover:border-transparent rounded text-xs">
                                 UI/UX Design
                             </button>
-                            <button className="rounded-full bg-transparent hover:bg-white text-white font-thin hover:text-primary-100 py-2 px-4 border border-white hover:border-transparent rounded">
+                            <button className="rounded-full bg-transparent hover:bg-white text-white font-Monserat hover:text-primary-100 py-2 px-4 border border-white hover:border-transparent rounded text-xs">
                                 Web Development
                             </button>
-                            <button className="rounded-full bg-transparent hover:bg-white text-white font-thin hover:text-primary-100 py-2 px-4 border border-white hover:border-transparent rounded">
+                            <button className="rounded-full bg-transparent hover:bg-white text-white font-Monserat hover:text-primary-100 py-2 px-4 border border-white hover:border-transparent rounded text-xs">
                                 Mobile Application
                             </button>
-                            <button className="rounded-full bg-transparent hover:bg-white text-white font-thin hover:text-primary-100 py-2 px-4 border border-white hover:border-transparent rounded">
+                            <button className="rounded-full bg-transparent hover:bg-white text-white font-Monserat hover:text-primary-100 py-2 px-4 border border-white hover:border-transparent rounded text-xs">
                                 Branding
                             </button>
-                            <button className="rounded-full bg-transparent hover:bg-white text-white font-thin hover:text-primary-100 py-2 px-4 border border-white hover:border-transparent rounded">
+                            <button className="rounded-full bg-transparent hover:bg-white text-white font-Monserat hover:text-primary-100 py-2 px-4 border border-white hover:border-transparent rounded text-xs">
                                 E-Commerce
                             </button>
-                            <button className="rounded-full bg-transparent hover:bg-white text-white font-thin hover:text-primary-100 py-2 px-4 border border-white hover:border-transparent rounded">
+                            <button className="rounded-full bg-transparent hover:bg-white text-white font-Monserat hover:text-primary-100 py-2 px-4 border border-white hover:border-transparent rounded text-xs">
                                 WordPress
                             </button>
                         </div>
