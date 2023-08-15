@@ -38,7 +38,7 @@ export default function UiPageHeader() {
             </Head>
             <main >
                 {/* Navar Start */}
-                <GenaralNav />
+                <GeneralNav />
                 {/* NavBar End */}
                 <div>
 
