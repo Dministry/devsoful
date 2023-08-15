@@ -1,10 +1,11 @@
 import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import DropdownNav from '../components/DropdownNav'
 
 const navigation = [
     { name: 'Home', href: '/' },
-    { name: 'Service', href: '/service' },
+    // { name: 'Service', href: '/service' },
     { name: 'Pricing', href: '/pricing' },
     { name: 'About', href: '/about' },
     { name: 'Contact', href: '/contact' },
@@ -85,6 +86,7 @@ export default function HomeNav() {
                                 {item.name}
                             </a>
                         ))}
+                        <DropdownNav />
                     </div>
                 </Dialog.Panel>
             </Dialog>

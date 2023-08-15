@@ -23,7 +23,7 @@ module.exports = withMT({
         'Thin': ['BabasNeue'],
         'Light': ['Axiforma-Light'],
         'Medium': ['Axiforma-Medium'],
-        'Bold': ['Axiforma-Bold'],
+        'Bold': ['BebasNeue-Regular'],
 
       },
     },

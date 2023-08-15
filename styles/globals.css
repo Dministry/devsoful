@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: "BaabaNeue-Regular";
+    src: url('../fonts/BebasNeue-Regular.otf');
+    font-weight: regular;
+    font-style: regular;
+  }
+    
+  @font-face {
+    font-family: "Monserat-Regular";
+    src: url('../fonts/BebasNeue-Regular.otf');
+    font-weight: black;
+    font-style: normal;
+  }
+ 

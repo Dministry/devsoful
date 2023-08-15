@@ -2,6 +2,7 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Image from 'next/image'
 import HomePageHeader from '../components/HomePageHeader'
+import Modal from '../components/Modal'
 import OurWork from '../components/OurWork'
 import LatestWork from '../components/LatestWork'
 import { Fragment } from 'react'
@@ -27,6 +28,7 @@ export default function Home() {
         <HomePageHeader />
         {/* NavBar End */}
         <OurWork />
+        <Modal />
         <ProductLife />
         <LatestWork />
 
