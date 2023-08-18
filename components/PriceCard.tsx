@@ -90,10 +90,10 @@ const Option = () => {
                                     </div>
                                 </div>
                                 <div className="grid grid-col-2 px-6 flex sm:justify-end mx-auto">
-                                    <button className="rounded-full bg-transparent hover:bg-primary-100 text-primary-100 font-Bebas hover:text-white py-2 px-4 border border-primary-100 hover:border-transparent rounded mb-2">
+                                    {/* <button className="rounded-full bg-transparent hover:bg-primary-100 text-primary-100 font-Bebas hover:text-white py-2 px-4 border border-primary-100 hover:border-transparent rounded mb-2">
                                         GET TO KNOW OUR WORK
-                                </button>
-                                    <button className="rounded-full bg-transparent hover:bg-primary-100 text-primary-100 font-Bebas hover:text-white py-2 px-4 border border-primary-100 hover:border-transparent rounded mb-4">
+                                </button> */}
+                                    <button className="rounded-full bg-transparent hover:bg-primary-100 text-primary-100 font-Bebas hover:text-white py-1 px-8 border border-primary-100 hover:border-transparent rounded mb-4">
                                         ORDER NOW
                                 </button>
                                 </div>
