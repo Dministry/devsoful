@@ -1,7 +1,6 @@
 
 import { Carousel } from "@material-tailwind/react";
-import Image from 'next/image'
-
+import Image from 'next/image';
 import ImgSld from '../public/image 7.png'
 import ImgWork1 from '../public/Works_1.png'
 import ImgWork2 from '../public/Works_2.png'
