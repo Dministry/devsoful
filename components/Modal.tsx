@@ -1,7 +1,6 @@
 import { Fragment, useState } from 'react'
 import { Dialog, Transition } from '@headlessui/react'
 import { ExclamationTriangleIcon, XMarkIcon, Squares2X2Icon } from '@heroicons/react/24/outline'
-import { IconName } from "react-icons/hi";
 
 import { Carousel } from "@material-tailwind/react";
 import Image from 'next/image'

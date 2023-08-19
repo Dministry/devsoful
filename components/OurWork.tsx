@@ -7,10 +7,10 @@ const OurWork = () => {
             <div className="w-3/4 my-20 mx-auto md:px-6">
                 <section className="lg:mb-8 mb-2 text-center lg:text-left">
                     <h2 className="mb-2 text-center text-3xl font-Bebas">
-                        FULL <span className="text-primary-100">CYCLE </span>BRAND AND PRODUCT DEVELOPMENT
+                        FULL <span className="text-primary-100">CYCLE </span>WEB DEVELOPMENT
                 </h2>
                     <p className="text-gray-500 mb-8 dark:text-neutral-300 flex items-center justify-center font-Monserat text-xs">
-                        We are focused on Branding, Design and Development and can do amazing things for you and your company.
+                    We are focused on Branding, Design and Development and can do amazing things for you and your company
                 </p>
                     <div className="grid gap-x-6 lg:grid-cols-3 items-center justify-center">
                         <div className="mb-12 lg:mb-0  border border-gray-300 rounded-lg p-8">
