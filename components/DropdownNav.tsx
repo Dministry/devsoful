@@ -82,7 +82,7 @@ function DropdownNav() {
         <React.Fragment>
             <Menu allowHover open={isMenuOpen} handler={setIsMenuOpen}>
                 <MenuHandler>
-                    <Typography as="a" href="#" variant="bold" className="font-Bebas text-white text-center">
+                    <Typography as="a" href="/service" variant="bold" className="font-Bebas text-white text-center">
                         <MenuItem className="text-white flex lg:rounded-full items-center justify-center">
                             Services{" "}
                             <ChevronDownIcon
