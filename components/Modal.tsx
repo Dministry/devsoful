@@ -213,7 +213,7 @@ export default function Modal() {
                     <Image src={ImgWork1} alt="test" />
 
                     <div className="mt-3 text-center sm:ml-4 sm:mt-0 sm:text-left">
-                      <Dialog.Title as="h3" className="text-base font-Bebas leading-6 text-gray-900">
+                      <Dialog.Title as="h3" className="text-base font-Bebas leading-6 text-primary-100">
                         PROJECT NAME
                     </Dialog.Title>
                       <div className="mt-2">
