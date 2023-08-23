@@ -13,7 +13,7 @@ const navigation = [
 ]
 
 export default function Example() {
-    const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+    const [mobileMenuOpen, setMobileMenuOpen] = useState(true)
 
     return (
         <header className="bg-primary-200">
@@ -70,7 +70,7 @@ export default function Example() {
                                 <XMarkIcon className="h-6 w-6" aria-hidden="true" />
                             </button>
                         </div>
-                        <a href="#" className="-m-1.5 p-1.5">
+                        <a href="/" className="-m-1.5 p-1.5">
                             <span className="sr-only">Your Company</span>
                             {/* <img
                                 className="h-8 w-auto"
@@ -82,18 +82,18 @@ export default function Example() {
                         <div className="flex flex-1 justify-end">
                             <button
                                 type="button"
-                                className="relative rounded-full mr-12 p-1 text-white hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+                                className="relative rounded-full mr-8 p-1 text-white hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
                             >
                                 <span className="absolute -inset-1.5" />
                                 <span className="sr-only">Share</span>
-                                <ShareIcon className="h-6 w-6" aria-hidden="true" />
+                                <ShareIcon className="h-5 w-5" aria-hidden="true" />
                             </button>
-                            <a href="#" className="text-sm font-Bebas leading-6 text-gray-100">
+                            <a href="/contact" className="text-sm font-Bebas leading-6 text-gray-100">
                                 CONTACT US <span aria-hidden="true">&rarr;</span>
                             </a>
                         </div>
                     </div>
-                    <div className="mt-6 space-y-2">
+                    <div className="mt-6 space-y-2 hover:text-green-400">
                         {navigation.map((item) => (
                             <a
                                 key={item.name}

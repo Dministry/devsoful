@@ -82,8 +82,8 @@ function DropdownNav() {
         <React.Fragment>
             <Menu allowHover open={isMenuOpen} handler={setIsMenuOpen}>
                 <MenuHandler>
-                    <Typography as="a" href="/service" variant="bold" className="font-Bebas text-white text-center">
-                        <MenuItem className="text-white flex lg:rounded-full items-center justify-center">
+                    <Typography as="a"  href="/service" variant="bold" className="font-Bebas text-center">
+                        <MenuItem className="text-white hover:text-primary-100 flex lg:rounded-full items-center justify-center">
                             Services{" "}
                             <ChevronDownIcon
                                 strokeWidth={2}
@@ -94,7 +94,7 @@ function DropdownNav() {
                         </MenuItem>
                     </Typography>
                 </MenuHandler>
-                <MenuList className="hidden w-[6rem] lg:w-[36rem] grid-cols-6 gap-3 overflow-visible grid">
+                <MenuList className="w-[6rem] lg:w-[36rem] grid-cols-6 gap-3 overflow-visible grid">
                     {/* <Card
                         color="blue"
                         shadow={false}
